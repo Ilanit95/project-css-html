@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&family=Heebo:wght@400;900&family=Josefin+Sans:wght@600&family=Poppins:ital,wght@0,100;0,300;0,500;0,700;1,400&family=Rubik+Glitch&family=Rubik+Maps&family=Satisfy&family=Varela+Round&display=swap');
+
+*{
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+}
+
+#intro{
+    background-color: rgb(19, 3, 38);
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+#intro > h1{
+    text-align: center;
+    font-family: 'Rubik Maps', system-ui;
+    font-weight: 400;
+    font-size: 100px;
+    color: rgb(122, 35, 19);
+
+}
+
+#intro > p{
+    font-family: 'Rubik Glitch', system-ui;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(188, 48, 23);
+}
+
+#icons{
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+    bottom: 0;
+
+}
+
+#icons img{
+    border-radius: 50px;
+    transition: transform 2s;
+}
+
+#icons img:hover {
+        box-shadow: 0 0 100px rgb(57, 255, 47);
+        transition: transform 2s;
+        transform: scale(0.5);
+}
+
+#buttons {
+    position: relative;
+    direction: ltr;
+    background: url('screen.png');
+    background-color: black;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    row-gap: 10px;
+    height: 900px;
+}
+
+#buttons > a {
+    margin-top: 400px;
+    padding: 10px;
+    height: 200px;
+    width: 800px;
+    cursor: grab;
+}
+
+#buttons img:hover{
+    border-radius: 1000px;
+    mix-blend-mode:luminosity;
+    box-shadow: 0 0 100px rgb(255, 255, 255);
+    transition:2s;
+}
+
+#project {
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(101, 11, 17);
+    padding-top: 25px;
+}
+  
+  .glitch {
+    background: #000 no-repeat center;
+    background-size: 0;
+    height: 50vh;
+    width: 50vh;
+    position: relative;
+    margin-inline: 35%;
+    overflow: hidden;
+  }
+  .glitch::before, .glitch::after,
+  .glitch .channel {
+    background: inherit;
+    background-size: cover;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .glitch::before {
+    animation: glitch-before 3s linear infinite alternate both;
+    content: "";
+  }
+  @keyframes glitch-before {
+    0% {
+      clip-path: polygon(0% 80.5620123969%, 100% 80.5620123969%, 100% 82.9066728109%, 0% 82.9066728109%);
+      transform: translate(-2.9415653648%, 0.031374454%);
+    }
+    2% {
+      clip-path: polygon(0% 73.6640063902%, 100% 73.6640063902%, 100% 79.8705740625%, 0% 79.8705740625%);
+      transform: translate(-1.3047500956%, -0.399892342%);
+    }
+    4% {
+      clip-path: polygon(0% 3.6382070188%, 100% 3.6382070188%, 100% 12.1180605302%, 0% 12.1180605302%);
+      transform: translate(1.3900666881%, -0.2426201091%);
+    }
+    6% {
+      clip-path: polygon(0% 39.0886658452%, 100% 39.0886658452%, 100% 46.8196753432%, 0% 46.8196753432%);
+      transform: translate(-6.8908085682%, 0.4863156465%);
+    }
+    8% {
+      clip-path: polygon(0% 51.0858409156%, 100% 51.0858409156%, 100% 52.5388921774%, 0% 52.5388921774%);
+      transform: translate(4.6415945883%, -0.3195639958%);
+    }
+    10% {
+      clip-path: polygon(0% 30.567094416%, 100% 30.567094416%, 100% 32.180181321%, 0% 32.180181321%);
+      transform: translate(-0.3418556736%, -0.0082179194%);
+    }
+    12% {
+      clip-path: polygon(0% 67.7625108081%, 100% 67.7625108081%, 100% 70.0028840092%, 0% 70.0028840092%);
+      transform: translate(0.4264781859%, -0.3905629247%);
+    }
+    14% {
+      clip-path: polygon(0% 62.0290035003%, 100% 62.0290035003%, 100% 63.534279787%, 0% 63.534279787%);
+      transform: translate(1.0004447563%, 0.2845329449%);
+    }
+    16% {
+      clip-path: polygon(0% 8.2260379811%, 100% 8.2260379811%, 100% 16.1483335468%, 0% 16.1483335468%);
+      transform: translate(-0.3735415226%, 0.0645387389%);
+    }
+    18% {
+      clip-path: polygon(0% 25.8437451492%, 100% 25.8437451492%, 100% 33.1108256673%, 0% 33.1108256673%);
+      transform: translate(3.884630724%, 0.3475461996%);
+    }
+    20%, 100% {
+      clip-path: none;
+      transform: none;
+    }
+  }
+  .glitch::after {
+    animation: glitch-after 3s linear infinite alternate both;
+    content: "";
+  }
+  @keyframes glitch-after {
+    0% {
+      clip-path: polygon(0% 22.3522735697%, 100% 22.3522735697%, 100% 27.4844983774%, 0% 27.4844983774%);
+      transform: translate(0.154538694%, 0.1202813877%);
+    }
+    2% {
+      clip-path: polygon(0% 70.1416524721%, 100% 70.1416524721%, 100% 74.2035271604%, 0% 74.2035271604%);
+      transform: translate(-4.4486071447%, 0.1057671257%);
+    }
+    4% {
+      clip-path: polygon(0% 78.0160992566%, 100% 78.0160992566%, 100% 84.1032893522%, 0% 84.1032893522%);
+      transform: translate(-4.4222899348%, -0.1252822921%);
+    }
+    6% {
+      clip-path: polygon(0% 23.9054468952%, 100% 23.9054468952%, 100% 30.6172890381%, 0% 30.6172890381%);
+      transform: translate(-6.536109992%, -0.0960538599%);
+    }
+    8% {
+      clip-path: polygon(0% 82.3550348561%, 100% 82.3550348561%, 100% 88.6556067724%, 0% 88.6556067724%);
+      transform: translate(0.8277968297%, -0.0923276601%);
+    }
+    10% {
+      clip-path: polygon(0% 51.4409973507%, 100% 51.4409973507%, 100% 61.1411983225%, 0% 61.1411983225%);
+      transform: translate(-6.5822440123%, -0.1816096677%);
+    }
+    12% {
+      clip-path: polygon(0% 44.9144291893%, 100% 44.9144291893%, 100% 48.987726244%, 0% 48.987726244%);
+      transform: translate(-0.7611363271%, 0.2708060601%);
+    }
+    14% {
+      clip-path: polygon(0% 24.1688913302%, 100% 24.1688913302%, 100% 25.855985917%, 0% 25.855985917%);
+      transform: translate(-1.5490547418%, 0.3450811714%);
+    }
+    16% {
+      clip-path: polygon(0% 42.5286531651%, 100% 42.5286531651%, 100% 43.8666755102%, 0% 43.8666755102%);
+      transform: translate(7.5853815691%, 0.2091633404%);
+    }
+    18% {
+      clip-path: polygon(0% 38.4950008194%, 100% 38.4950008194%, 100% 42.3522202581%, 0% 42.3522202581%);
+      transform: translate(1.442439401%, -0.4466840271%);
+    }
+    20%, 100% {
+      clip-path: none;
+      transform: none;
+    }
+  }
+  .glitch .channel {
+    mix-blend-mode: screen;
+  }
+  .glitch .channel::before {
+    bottom: 0;
+    content: "";
+    display: block;
+    mix-blend-mode: multiply;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+  .glitch .r {
+    animation: rgb-shift-r 3s steps(1, jump-end) infinite alternate both;
+  }
+  @keyframes rgb-shift-r {
+    0% {
+      transform: translate(1.8763694631%, 0.0124975681%);
+    }
+    2% {
+      transform: translate(-0.6362280018%, 0.3404724613%);
+    }
+    4% {
+      transform: translate(0.9114233148%, -0.0479086494%);
+    }
+    6% {
+      transform: translate(1.6875749341%, 0.067595012%);
+    }
+    8% {
+      transform: translate(0.5974821363%, -0.1413892001%);
+    }
+    10% {
+      transform: translate(-0.1562287585%, 0.14777321%);
+    }
+    12% {
+      transform: translate(0.1494604838%, 0.4310534904%);
+    }
+    14% {
+      transform: translate(-1.6882865648%, -0.2253014166%);
+    }
+    16% {
+      transform: translate(-1.7428449284%, -0.0344351376%);
+    }
+    18% {
+      transform: translate(-0.3209299814%, -0.15673312%);
+    }
+    20%, 100% {
+      transform: none;
+    }
+  }
+  .glitch .r::before {
+    background: #f00;
+  }
+  .glitch .g {
+    animation: rgb-shift-g 3s steps(1, jump-end) infinite alternate both;
+  }
+  @keyframes rgb-shift-g {
+    0% {
+      transform: translate(-1.2263651582%, -0.0164577346%);
+    }
+    2% {
+      transform: translate(0.4926060844%, -0.2147573618%);
+    }
+    4% {
+      transform: translate(-1.4696040313%, -0.2815613304%);
+    }
+    6% {
+      transform: translate(0.2948706239%, -0.4384768407%);
+    }
+    8% {
+      transform: translate(-1.0787517287%, -0.4263115937%);
+    }
+    10% {
+      transform: translate(1.8207363424%, -0.0443897755%);
+    }
+    12% {
+      transform: translate(1.8896987305%, 0.4769210174%);
+    }
+    14% {
+      transform: translate(1.7023849154%, -0.252391319%);
+    }
+    16% {
+      transform: translate(-1.2233529647%, 0.3793867751%);
+    }
+    18% {
+      transform: translate(0.695144409%, -0.3180129063%);
+    }
+    20%, 100% {
+      transform: none;
+    }
+  }
+  .glitch .g::before {
+    background: #0f0;
+  }
+  .glitch .b {
+    animation: rgb-shift-b 3s steps(1, jump-end) infinite alternate both;
+  }
+  @keyframes rgb-shift-b {
+    0% {
+      transform: translate(-1.799055651%, -0.4450622746%);
+    }
+    2% {
+      transform: translate(-1.6374206134%, -0.0923451849%);
+    }
+    4% {
+      transform: translate(-0.1651201061%, -0.3471830812%);
+    }
+    6% {
+      transform: translate(-0.7963714013%, -0.2559759224%);
+    }
+    8% {
+      transform: translate(-0.6317571907%, 0.0353517388%);
+    }
+    10% {
+      transform: translate(0.3099690923%, -0.4207982949%);
+    }
+    12% {
+      transform: translate(-0.8489600155%, -0.3784492896%);
+    }
+    14% {
+      transform: translate(-1.5283673595%, -0.4285007956%);
+    }
+    16% {
+      transform: translate(0.0915663424%, 0.0129808284%);
+    }
+    18% {
+      transform: translate(-0.8635376427%, -0.4720390082%);
+    }
+    20%, 100% {
+      transform: none;
+    }
+  }
+  .glitch .b::before {
+    background: #00f;
+  }
