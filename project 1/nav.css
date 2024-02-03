@@ -26,7 +26,7 @@ nav ul {
 
 .logo{
     top: 0;
-    margin-left: 200px;
+    margin-left: 10px;
     height: 70px;
     display: flex;
     flex: 1;
@@ -83,6 +83,13 @@ nav ul {
   .li:active {
     background-color: #04AA6D;
   }
+
+  #footer {
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(rgb(159, 200, 223), rgb(169, 159, 223), rgb(201, 159, 223));
+}
 
   @media(width < 800px){
     nav ul{

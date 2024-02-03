@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;900&family=Poppins:ital,wght@0,100;0,300;0,500;0,700;1,400&family=Satisfy&family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.background{
+    background: url('purple.png');
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 580px;
+}
+
+.box{
+    position: relative;
+    padding-top: 5px; 
+    top: 157px;
+    margin-left: 1056px;
+    width: 569px;
+    height: 643px;
+    background: #1A1A1AD4 0% 0% no-repeat padding-box;
+    opacity: 1;
+    letter-spacing: 0px;
+}
+
+.h2{
+    margin-top: 75px;
+    margin-right: 75px;
+    width: 100%;
+    height: 53px;
+    font: normal normal 900 36px/53px Heebo;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#p-text{
+    margin-top: 21px;
+    margin-right: 76px;
+    width: 417px;
+    height: 58px;
+    font: normal normal normal 20px/29px Heebo;
+    color: #F9F9F9;
+    opacity: 1;
+}
+
+.form{
+    display: flex;
+    top: 409px;
+    left: 1131px;
+    width: 418px;
+    height: 167px;
+    flex-direction: column;    
+}
+
+#p1{
+    margin-top: 44px;
+}
+
+#p2{
+    margin-top: 17px;
+}
+
+#p1, #p2{
+    margin-right: 76px;
+    height: 24px;
+    text-align: right;
+    font: normal normal bold 16px/24px Heebo;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.input{
+    margin-top: 1px;
+    margin-right: 76px;
+    width: 418px;
+    height: 50px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #D31C75;
+    opacity: 1;
+}
+
+#contact{
+    margin-top: 34px;
+    margin-right: 76px;
+    width: 166px;
+    height: 50px;
+    background: #D31C75 0% 0% no-repeat padding-box;
+    text-align: center;
+    font: normal normal bold 22px/30px Heebo;
+    letter-spacing: 0.33px;
+    color: #FFFFFF;
+    opacity: 1;
+    border: none;
+}
+
+@media (width <800px){
+
+    *{
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+        justify-content: center; 
+    }
+
+    .background{
+        background: url('mobile.png');
+        top: 0;
+        left: 0;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 213px;
+        width: 100%;
+    }
+
+    .box{
+        top: 84px;
+        margin-left: 37px;
+        width: 299px;
+        height: 441px;
+              
+    }
+
+    .h2{
+        margin-top: 42px;
+        margin-right: 60px;
+        text-align: center;
+        width: 60%;
+        height: 67px;
+        font: normal normal 900 25px/30px Heebo;
+    }
+    
+    #p-text{
+        margin-right: 0px;
+        text-align: center;
+        width: 100%;
+        height: 66px;
+        font: normal normal normal 15px/22px Heebo;
+    }
+    
+    .form{
+        width: 100%;
+        left: 0px;
+        margin-right: -40px; 
+    }
+
+    #p2{
+        margin-top: 13px;
+    }
+    
+    #p1, #p2{
+        font: normal normal bold 14px/21px Heebo;
+    }
+    
+    .input{
+        margin-top: 1px;
+
+        width: 230px;
+        height: 28px;
+    }
+    
+    #contact{
+        width: 66px;
+        height: 22px;
+        font: normal normal bold 15px/20px Heebo;
+        letter-spacing: 0.23px;
+    }
+    
+}
+
+
