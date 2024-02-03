@@ -329,6 +329,14 @@ body {
     height: 20px;
 }
 
+#footer {
+    bottom: 0;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background: linear-gradient(rgb(159, 200, 223), rgb(169, 159, 223), rgb(201, 159, 223));
+}
+
 @media(width<1000px){
     .logo{
         margin-left: 0px;

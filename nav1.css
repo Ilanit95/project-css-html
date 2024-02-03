@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&family=Heebo:wght@400;900&family=Josefin+Sans:wght@600&family=Poppins:ital,wght@0,100;0,300;0,500;0,700;1,400&family=Rubik+Glitch&family=Rubik+Maps&family=Satisfy&family=Varela+Round&display=swap');
 
-
-
-nav{
+header{
+  position: sticky;
+  z-index: 1;
   top: 0;
   left: 0;
-    position: sticky;
+}
+
+nav{
     background: linear-gradient(rgb(159, 200, 223), rgb(169, 159, 223), rgb(201, 159, 223));
     opacity: 1;
     border-top: 4px solid #04AA6D; 
-    z-index: 1; 
 }
 
 nav ul{
@@ -79,14 +80,6 @@ nav ul{
   .li:active {
     background-color: #04AA6D;
   }
-
-  #footer {
-    bottom: 0;
-    display: flex;
-    padding: 10px;
-    justify-content: space-between;
-    background: linear-gradient(rgb(159, 200, 223), rgb(169, 159, 223), rgb(201, 159, 223));
-}
 
   @media(width < 800px){
     nav ul{
