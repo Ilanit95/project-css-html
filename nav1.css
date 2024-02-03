@@ -8,92 +8,92 @@ header{
 }
 
 nav{
-    background: linear-gradient(rgb(159, 200, 223), rgb(169, 159, 223), rgb(201, 159, 223));
-    opacity: 1;
-    border-top: 4px solid #04AA6D; 
+  background: linear-gradient(rgb(159, 200, 223), rgb(169, 159, 223), rgb(201, 159, 223));
+  opacity: 1;
+  border-top: 4px solid #04AA6D; 
 }
 
 nav ul{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
-    background: linear-gradient(rgb(196, 220, 235), rgb(208, 203, 241), rgb(225, 200, 239));
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  background: linear-gradient(rgb(196, 220, 235), rgb(208, 203, 241), rgb(225, 200, 239));
 }
 
 .logo{
-    top: 0;
-    margin-left: 200px;
-    height: 70px;
-    display: flex;
-    flex: 1;
-    align-items: center;
-    list-style: none;
-    font-family: satisfy;
-    font-size: 10px;
+  top: 0;
+  margin-left: 200px;
+  height: 70px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  list-style: none;
+  font-family: satisfy;
+  font-size: 10px;
 }
 
 .logo img{
-    display: flex;
-    margin: 10px;
-    width: 62px;
-    height: 62px;
-    border-radius: 50px;
+  display: flex;
+  margin: 10px;
+  width: 62px;
+  height: 62px;
+  border-radius: 50px;
 }
 
 .cta button{
-    background-color: rgb(112, 216, 157);
-    padding: 0px 10px;
-    border: none;
-    color: #005d2a;
-    border-radius: 10px;
-    font: normal normal normal 15px/26px Heebo;
-    font-weight: 900;
+  background-color: rgb(112, 216, 157);
+  padding: 0px 10px;
+  border: none;
+  color: #005d2a;
+  border-radius: 10px;
+  font: normal normal normal 15px/26px Heebo;
+  font-weight: 900;
 }
 
 .cta button:hover{
-    background-color: cyan;
-    color: #000;
+  background-color: cyan;
+  color: #000;
 }
 
-  .menu li {
-    font: normal normal normal 15px/26px Heebo;
-    font-weight: 900;
-    list-style-type: none;
-    padding: 10px 15px;
-    float: left;
+.menu li {
+  font: normal normal normal 15px/26px Heebo;
+  font-weight: 900;
+  list-style-type: none;
+  padding: 10px 15px;
+  float: left;
   }
   
-  nav a {
-    color: rgb(13, 67, 100);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.5s;
+nav a {
+  color: rgb(13, 67, 100);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.5s;
   }
   
-  nav a:hover {
-    background-color: #86cdfd;
-    border-radius: 50px;
+nav a:hover {
+  background-color: #86cdfd;
+  border-radius: 50px;
   }
 
-  .li:active {
-    background-color: #04AA6D;
+.li:active {
+  background-color: #04AA6D;
   }
 
-  @media(width < 800px){
-    nav ul{
-        flex-wrap: wrap;
+@media(width < 800px){
+  nav ul{
+    flex-wrap: wrap;
     }
     
-    .nav-links{
-        display: none;
-        width: 100%;
-        text-align: center;
+  .nav-links{
+    display: none;
+    width: 100%;
+    text-align: center;
     }
 
-    .toggle{
-        margin-top: 10px;
-        background: url('bx-list-plus.svg') 0px 0px no-repeat padding-box;
+  .toggle{
+    margin-top: 10px;
+    background: url('bx-list-plus.svg') 0px 0px no-repeat padding-box;
     }
 }
